@@ -9,7 +9,7 @@ function App() {
   const fullName = useSelector(state => state.customer.fullName);
   return (
     <div>
-      <h1>🏦 The React-Redux Bank ⚛️</h1>
+      <h1>🏦 Redux Bank</h1>
       {
         fullName === '' ? <CreateCustomer /> :
         <Fragment>
